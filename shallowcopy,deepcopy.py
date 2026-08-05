@@ -11,5 +11,3 @@ c=copy.deepcopy(d)
 c[0][0]=50
 print(d)
 print(c)
-
-
