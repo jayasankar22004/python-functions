@@ -33,7 +33,7 @@ class Rapido:
                 self.logged = True
                 print("Logged in Successfully")
             else:
-                print("Invalid Credentials")
+                print("Invalid details")
     def logout(self):
         if self.logged:
             self.logged = False
@@ -88,7 +88,5 @@ r1.login()
 r1.book_ride()
 r1.book_ride()
 r1.profile()
-r1.ride_history()
 r1.cancel_ride()
-r1.ride_history()
 r1.logout()
